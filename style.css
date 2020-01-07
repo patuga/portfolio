@@ -1,0 +1,30 @@
+.header {
+  display: flex; /* or inline-flex */
+  justify-content: space-between;
+} 
+
+.project {
+  display: flex; /* or inline-flex */
+  justify-content: space-between;
+} 
+.menu {
+  padding: 100px;
+  background-color: #DAE8EA;
+    flex-grow: 2;
+   
+}
+
+
+.main {
+  padding: 100px;
+  background-color: #DAE8EA;
+    flex-grow: 2;
+   
+}
+
+
+.menu {
+border-width: 0px 20px 20px 0px;
+border-style: solid;
+border-color: #A78E9B   #A78E9B   #A78E9B   #A78E9B ;
+}
