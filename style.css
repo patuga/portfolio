@@ -1,3 +1,7 @@
+
+
+
+
 :root {
   --light: lightsteelblue;
   --dark: steelblue;
@@ -44,6 +48,7 @@ main > div {
 }
 .box iframe {
   width: 100%;
+  max-height: 500;
   height: 100%;
   object-fit: cover;
 }
@@ -55,9 +60,6 @@ ul {
 ul a {
   text-decoration: none;
 }
-
-
-
 
 
 ul {
