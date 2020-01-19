@@ -1,12 +1,5 @@
 
-
-
-
-:root {
-  --light: lightsteelblue;
-  --dark: steelblue;
-}
-
+  
 main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -90,4 +83,74 @@ a {
     display: inline-block;
     border-bottom: 1px solid orange;
   }
+
+
+.h1 {
+background-color: rgb(239, 226, 240)
+}
+
+div {
+  background-color: #8A7795;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+
+
+
+body:before,
+body:after
+{
+	content: "";
+	position: fixed;
+	background: #8A7795;
+	left: 0;
+	right: 0;
+	height: 10px;
+}
+body:before {
+ top: 0;
+}
+body:after {
+  bottom: 0;
+}
+body {
+ border-left: 20px solid white;
+ border-right: 20px solid white;
+}
+.lt-ie9 body:before, .lt-ie9 body:after {
+ display: none;
+}
+.lt-ie9 body {
+ border:none;
+}
+
+
+
+  
+ .footer, #push {
+    height: 100px; 
+   background-color: white;
 }
